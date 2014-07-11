@@ -9,7 +9,7 @@ Author URI: http://austinthedeveloper.com/
 License: GPL2
 */
 
-$dirPlugin = plugin_dir_url( $file ). 'phone-plugin';
+$dirPlugin = plugin_dir_url( $file ). 'cfs-phone2';
 
 if (is_admin()) {
 wp_register_script('maskedInput', $dirPlugin . '/jquery.maskedinput.min.js', array(), '1.0.0'); // Call Masked Input
