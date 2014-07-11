@@ -9,6 +9,15 @@ Author URI: http://austinthedeveloper.com/
 License: GPL2
 */
 
+$dirPlugin = plugin_dir_url( $file ). 'phone-plugin';
+
+if (is_admin()) {
+wp_register_script('maskedInput', $dirPlugin . '/jquery.maskedinput.min.js', array(), '1.0.0'); // Call Masked Input
+wp_enqueue_script('maskedInput'); // Enqueue it!
+wp_register_script('adminControls', $dirPlugin . '/admin.js', array(), '1.0.0'); // Call a JS file that shows up on the dashboard
+wp_enqueue_script('adminControls'); // Enqueue it!
+}
+
 $cfs_phone_addon = new cfs_phone_addon();
 
 class cfs_phone_addon
