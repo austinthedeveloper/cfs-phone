@@ -3,7 +3,7 @@
 Plugin Name: CFS - Phone Add-on
 Plugin URI: http://uproot.us/
 Description: A phone field extension for Custom Field Suite
-Version: .1
+Version: .2
 Author: Austin Stewart
 Author URI: http://austinthedeveloper.com/
 License: GPL2
