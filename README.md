@@ -1,4 +1,4 @@
-cfs-phone
+Custom Field Suite- Phone Add-on
 =========
 
 A phone field extension for [Custom Field Suite](https://uproot.us/). This uses the [Masked Input Plugin](http://digitalbush.com/projects/masked-input-plugin) to format the numbers.
