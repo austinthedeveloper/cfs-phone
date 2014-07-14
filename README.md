@@ -11,3 +11,4 @@ A phone field extension for [Custom Field Suite](https://uproot.us/). This uses 
 * When choosing a field, select Phone
 * Select the correct phone format from the drop-down.
 
+This has been tested with Wordpress 3.9.1 and CFS 2.3.3
