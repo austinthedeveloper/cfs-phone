@@ -1,7 +1,7 @@
 cfs-phone
 =========
 
-A phone field extension for [Custom Field Suite](https://uproot.us/)
+A phone field extension for [Custom Field Suite](https://uproot.us/). This uses the [Masked Input Plugin](http://digitalbush.com/projects/masked-input-plugin) to format the numbers.
 
 ## Installation
 * Download the zip and unzip into the plugin directory
@@ -9,5 +9,5 @@ A phone field extension for [Custom Field Suite](https://uproot.us/)
 
 ## Use
 * When choosing a field, select Phone
-* This re-writes all numbers to fit the (555)555-5555 format. 
-* It can easily be changed by editing it in admin.js.
+* Select the correct phone format from the drop-down.
+
